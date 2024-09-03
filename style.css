@@ -75,3 +75,21 @@ object {
     border-bottom: 1px solid var(--Very-dark-blue-line);
     margin-bottom: 0.833rem;
 }
+
+.author {
+    display: flex;
+    align-items: center;
+}
+
+.author__photo {
+    border: 1px solid var(--White);
+    border-radius: 50%;
+    width: 1.833rem;
+    margin-right: 0.833rem;
+}
+
+.author__title {
+    color: var(--Soft-blue);
+    font-weight: 400;
+    font-size: 0.833rem;
+}
