@@ -7,3 +7,8 @@
     --Very-dark-blue-line: hsl(215, 32%, 27%);
     --White: hsl(0, 0%, 100%);
 }
+
+* {
+    font-family: "Outfit", system-ui;
+    font-size: 18px;
+}
