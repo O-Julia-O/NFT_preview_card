@@ -28,3 +28,9 @@ main {
 .card__picture {
     margin-bottom: 1.333rem;
 }
+
+.card__headline {
+    font-size: 1.222rem;
+    font-weight: 600;
+    margin-bottom: 0.667rem;
+}
