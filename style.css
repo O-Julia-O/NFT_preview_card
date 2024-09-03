@@ -93,3 +93,12 @@ object {
     font-weight: 400;
     font-size: 0.833rem;
 }
+
+a {
+    color: var(--White);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--Cyan);
+}
