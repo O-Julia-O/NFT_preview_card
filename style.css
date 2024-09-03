@@ -13,10 +13,14 @@
     font-size: 18px;
 }
 
+body {
+    background-color: var(--Very-dark-blue-main-BG);
+}
+
 main {
     display: grid;
     place-items: center;
-    background-color: var(--Very-dark-blue-main-BG);
+    
 }
 
 .card {
@@ -124,4 +128,10 @@ a:hover {
 
 .card__picture:hover::after {
     opacity: 1;
+}
+
+@media screen and (min-width: 42.667rem) {
+    .card {
+        max-width: 19.444rem;
+    }
 }
