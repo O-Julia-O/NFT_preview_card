@@ -42,3 +42,30 @@ main {
     font-weight: 300;
     margin-bottom: 0.889rem; /* 16px */
 }
+
+.card__details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card__details>* {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.889rem;
+}
+
+object {
+    margin-right: 0.428rem;
+}
+
+.card__price {
+    color: var(--Cyan);
+    font-weight: 600;
+    font-size: 0.833rem;
+}
+
+.card__time {
+    color: var(--Soft-blue);
+    font-weight: 400;
+    font-size: 0.833rem;
+}
