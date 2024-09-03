@@ -6,6 +6,10 @@
     --Very-dark-blue-card-BG: hsl(216, 50%, 16%);
     --Very-dark-blue-line: hsl(215, 32%, 27%);
     --White: hsl(0, 0%, 100%);
+
+    --spacing-15: 0.833rem; /* 15px */
+    --spacing-16: 0.889rem; /* 16px */
+    --spacing-24: 1.333rem; /* 24px */
 }
 
 * {
@@ -25,13 +29,13 @@ main {
 
 .card {
     background-color: var(--Very-dark-blue-card-BG);
-    margin: 3.444rem 1.333rem;
-    padding: 1.333rem;
-    border-radius: 0.833rem;
+    margin: 3.444rem var(--spacing-24);
+    padding: var(--spacing-24);
+    border-radius: var(--spacing-15);
 }
 
 .card__picture {
-    margin-bottom: 1.333rem;
+    margin-bottom: var(--spacing-24);
 }
 
 .card__img__source {
@@ -50,7 +54,7 @@ main {
     color: var(--Soft-blue);
     line-height: 1.444rem;
     font-weight: 300;
-    margin-bottom: 0.889rem;
+    margin-bottom: var(--spacing-16);
     /* 16px */
 }
 
@@ -62,7 +66,7 @@ main {
 .card__details>* {
     display: flex;
     align-items: center;
-    margin-bottom: 0.889rem;
+    margin-bottom: var(--spacing-16);
 }
 
 object {
@@ -72,19 +76,19 @@ object {
 .card__price {
     color: var(--Cyan);
     font-weight: 600;
-    font-size: 0.833rem;
+    font-size: var(--spacing-15);
 }
 
 .card__time {
     color: var(--Soft-blue);
     font-weight: 400;
-    font-size: 0.833rem;
+    font-size: var(--spacing-15);
 }
 
 .card__separator {
     border: none;
     border-bottom: 1px solid var(--Very-dark-blue-line);
-    margin-bottom: 0.833rem;
+    margin-bottom: var(--spacing-15);
 }
 
 .author {
@@ -96,13 +100,13 @@ object {
     border: 1px solid var(--White);
     border-radius: 50%;
     width: 1.833rem;
-    margin-right: 0.833rem;
+    margin-right: var(--spacing-15);
 }
 
 .author__title {
     color: var(--Soft-blue);
     font-weight: 400;
-    font-size: 0.833rem;
+    font-size: var(--spacing-15);
 }
 
 a {
