@@ -32,5 +32,13 @@ main {
 .card__headline {
     font-size: 1.222rem;
     font-weight: 600;
-    margin-bottom: 0.667rem;
+    margin-bottom: 0.667rem;/* 12px */
+}
+
+
+.card__description {
+    color: var(--Soft-blue);
+    line-height: 1.444rem;
+    font-weight: 300;
+    margin-bottom: 0.889rem; /* 16px */
 }
