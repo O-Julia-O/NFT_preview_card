@@ -12,3 +12,12 @@
     font-family: "Outfit", system-ui;
     font-size: 18px;
 }
+
+main {
+    display: grid;
+    place-items: center;
+}
+
+.card {
+    margin: 3.444rem 1.333rem;
+}
