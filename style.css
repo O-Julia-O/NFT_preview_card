@@ -27,10 +27,15 @@ main {
     background-color: var(--Very-dark-blue-card-BG);
     margin: 3.444rem 1.333rem;
     padding: 1.333rem;
+    border-radius: 0.833rem;
 }
 
 .card__picture {
     margin-bottom: 1.333rem;
+}
+
+.card__img__source {
+    border-radius: 0.444rem;
 }
 
 .card__headline {
@@ -124,6 +129,7 @@ a:hover {
     background-color: hwb(178 0% 0% / 0.5);
     opacity: 0;
     transition: opacity 0.3s ease;
+    border-radius: 0.444rem;
 }
 
 .card__picture:hover::after {
