@@ -24,3 +24,7 @@ main {
     margin: 3.444rem 1.333rem;
     padding: 1.333rem;
 }
+
+.card__picture {
+    margin-bottom: 1.333rem;
+}
