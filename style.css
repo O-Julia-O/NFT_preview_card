@@ -32,7 +32,8 @@ main {
 .card__headline {
     font-size: 1.222rem;
     font-weight: 600;
-    margin-bottom: 0.667rem;/* 12px */
+    margin-bottom: 0.667rem;
+    /* 12px */
 }
 
 
@@ -40,7 +41,8 @@ main {
     color: var(--Soft-blue);
     line-height: 1.444rem;
     font-weight: 300;
-    margin-bottom: 0.889rem; /* 16px */
+    margin-bottom: 0.889rem;
+    /* 16px */
 }
 
 .card__details {
@@ -101,4 +103,25 @@ a {
 
 a:hover {
     color: var(--Cyan);
+}
+
+.card__picture {
+    position: relative;
+}
+
+.card__picture::after {
+    content: "";
+    background: url("./images/icon-view.svg") no-repeat center center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: hwb(178 0% 0% / 0.5);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.card__picture:hover::after {
+    opacity: 1;
 }
