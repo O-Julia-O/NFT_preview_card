@@ -69,3 +69,9 @@ object {
     font-weight: 400;
     font-size: 0.833rem;
 }
+
+.card__separator {
+    border: none;
+    border-bottom: 1px solid var(--Very-dark-blue-line);
+    margin-bottom: 0.833rem;
+}
